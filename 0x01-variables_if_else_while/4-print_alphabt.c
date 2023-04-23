@@ -17,8 +17,10 @@ int main(void)
 	for (alpha = 97; alpha < 123; alpha++)
 	{
 		if (alpha == 101 && alpha == 113)
+		{
 			continue;
 		putchar(alpha);
+		}
 		putchar('\n');
 		return (0);
 }
