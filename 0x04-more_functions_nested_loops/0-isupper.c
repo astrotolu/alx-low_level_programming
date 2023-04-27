@@ -16,6 +16,7 @@ int _islower(int c)
 		if (i == c)
 			upper = 1;
 	}
+	_putchar('\n');
 
 	return (upper);
 }
