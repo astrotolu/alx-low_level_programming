@@ -1,24 +1,23 @@
-#include "main.h"
+#include "alx_school.h"
 
 /**
- * _isupper - A function that checks for uppercase character.
+ * _isupper - Checks alx_school.h
  * @c: An input character
- * Return: 1 if c is uppercase or 0 otherwise
+ * Description: function uses _putchar function to print
+ * Return: 1 if is uppercase or 0 if is uppercase
  */
-int _isupper(int c)
+int _islower(int c)
 {
-	char uppercase = 'A';
-	int isupper = 0;
+	char i;
+	int upper = 0;
 
-	for (uppercase <= 'Z'; uppercase++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		if (c == uppercase)
-		{
-			isupper = 1;
-			break;
-		}
+		if (i == c)
+			upper = 1;
 	}
 
-	return (isupper);
+	return (upper);
 }
+
 
