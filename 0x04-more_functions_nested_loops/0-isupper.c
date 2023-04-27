@@ -1,7 +1,7 @@
-#include "alx_school.h"
+#include "main.h"
 
 /**
- * _isupper - Checks alx_school.h
+ * _isupper - Checks main.h
  * @c: An input character
  * Description: function uses _putchar function to print
  * Return: 1 if is uppercase or 0 if is uppercase
