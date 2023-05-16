@@ -1,1 +1,1 @@
-# 0x09. C - Static libraries
+This is the readme for the STatic library Task
