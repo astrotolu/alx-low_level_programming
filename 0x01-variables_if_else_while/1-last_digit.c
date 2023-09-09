@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - start of code
  * code will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit
