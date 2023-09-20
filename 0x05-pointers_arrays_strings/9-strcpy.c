@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * main - start of code
+ * _strcpy - copies the string pointed to by src,
+ * including the terminating null byte, to the
+ * buffer pointed to by dest.
+ * @dest: destination.
+ * @src: source.
  * code that prints every other character of a strin
  * Return: every other character of a string
  */

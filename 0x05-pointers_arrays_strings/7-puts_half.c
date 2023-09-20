@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - start of code
+ * puts_half - prints half of a string.
+ * @str: input string.
  * code that prints half of a string, followed by a new line
  * Return: every other character of a string
  */
